@@ -18,6 +18,7 @@ pub fn run() {
     println!("-------------------------------");
     println!("Part 1: {}", q1(&input));
     println!("Part 2: {}", q2(&input));
+    println!();
 }
 
 fn q1(input: &Vec<String>) -> u32 {
